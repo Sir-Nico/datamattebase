@@ -1,5 +1,9 @@
-function testing(){
-    document.getElementById('test').innerHTML = "New Text"
 
-}
-   testing()
+const a = document.getElementById("test");
+
+a.innerHTML = 'haeh';
+
+
+
+
+   
