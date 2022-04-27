@@ -9,6 +9,6 @@ c = conn.cursor()
 
 
 # Det er denne funksjonen som lager selve tablesene og putter dem i databasen.
-def create_tables(connection):
+def create_tables(conn):
     with connection:
-        connection.execute()
+        conn.execute()

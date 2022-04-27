@@ -11,10 +11,10 @@
 # balls
 >>>>>>> jack-the-best
 
-# Create  server and database
-# Create tables and Colums
+# Create  server and database - Nicolay
+# Create tables and Colums - Nicolay
 # Instert whatever into colums
-# try to display squlite in html
+# try to display squlite in html - Jack
 # Inserting tags,oppgave
 # design the website
 # Log in function
