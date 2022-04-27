@@ -6,3 +6,4 @@ import sqlite3
 conn = sqlite3.connect('gay.db')
 
 c = conn.cursor()
+
