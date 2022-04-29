@@ -12,8 +12,7 @@ def create_table(c):
 def main():
     conn = sqlite3.connect("eksempel.db")
     c = conn.cursor()
-    for i in range(100):
-        c.execute("INSERT INTO tasks VALUES ('penis', 'dick', 'cock')")
+    c.execute("INSERT INTO tasks VALUES ('velg', 'med', 'omhu')")
     conn.commit()
     conn.close()
 
