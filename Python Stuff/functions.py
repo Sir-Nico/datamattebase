@@ -29,6 +29,5 @@ def pushing(y):
 
     
 
-#   y = ('supremacy', '19', '14')
+#   y = ('something', 'something2', 'something3')
 #   x = ["test_1 = 'velg'", "test_2 = 'med'", "test_3 = 'omhu'"]
-#   x1 = ["test_1 = 'bitch'", "test_2 = 'ass'", "test_3 = 'nword'"]
