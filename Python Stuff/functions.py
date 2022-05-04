@@ -20,10 +20,17 @@ def pulling(x):
 
 def pushing(y):
     command_string = f"INSERT INTO tasks VALUES {y}"
-    c.execute(command_string)
+    print(command_string)
+    try:
+        c.execute(command_string)
+        conn.commit()
+    except Exception as e:
+        print(e)
+
     
 
-y = ('supremacy', '19', '14')
+y = ('bitch', 'ass', 'nword')
 x = ["test_1 = 'velg'", "test_2 = 'med'", "test_3 = 'omhu'"]
-x1 = ["test_1 = 'supremacy'", "test_2 = '19'", "test_3 = '14'"]
+x1 = ["test_1 = 'bitch'", "test_2 = 'ass'", "test_3 = 'nword'"]
 pushing(y)
+pulling(x1)
