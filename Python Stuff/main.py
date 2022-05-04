@@ -1,14 +1,23 @@
-#create server
-##ballslover69 will create a server
-from multiprocessing import connection
 import sqlite3
 
-conn = sqlite3.connect('gay.db')
 
-c = conn.cursor()
+def create_table(c):
+    c.execute("""CREATE TABLE tasks(
+        test_1 TEXT,
+        test_2 TEXT,
+        test_3 TEXT
+    )""")
 
 
-# Det er denne funksjonen som lager selve tablesene og putter dem i databasen.
-def create_tables(conn):
-    with connection:
-        conn.execute()
+def main():
+    conn = sqlite3.connect("eksempel.db")
+    c = conn.cursor()
+    c.execute("INSERT INTO tasks VALUES ('velg', 'med', 'omhu')")
+    conn.commit()
+    conn.close()
+
+
+if __name__ == "__main__":
+    main()
+
+
