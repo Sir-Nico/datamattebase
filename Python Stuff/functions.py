@@ -29,8 +29,6 @@ def pushing(y):
 
     
 
-y = ('bitch', 'ass', 'nword')
-x = ["test_1 = 'velg'", "test_2 = 'med'", "test_3 = 'omhu'"]
-x1 = ["test_1 = 'bitch'", "test_2 = 'ass'", "test_3 = 'nword'"]
-pushing(y)
-pulling(x1)
+#   y = ('supremacy', '19', '14')
+#   x = ["test_1 = 'velg'", "test_2 = 'med'", "test_3 = 'omhu'"]
+#   x1 = ["test_1 = 'bitch'", "test_2 = 'ass'", "test_3 = 'nword'"]
