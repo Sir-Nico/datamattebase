@@ -1,18 +1,25 @@
 #create server
 ##ballslover69 will create a server
+from ast import dump
+from crypt import methods
 from multiprocessing import connection
 import sqlite3
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template, url_for
 
 app = Flask(__name__)
 
-@app.route("/api")
+@app.route("/", methods=['GET'])
 def home():
-    return "Hello! this is the main page <h1>Hey<h1>"
+    return render_template("index.html")
+    #return "hey there"
+    
+
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug = True)
+
+
     
     
 
