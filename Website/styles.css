@@ -1,0 +1,92 @@
+/* .flexbox-container {
+   position: absolute;
+}
+.flexbox-item1 {
+   width: 300px;
+   height: 40px;
+   margin: 10px;
+   border: 3px solid #333;
+   background-color: #949494;
+} */
+
+ 
+ /* Full-width inputs */
+ input[type=text], input[type=password] {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+   z-index: 2;
+ }
+ 
+ /* Set a style for all buttons */
+ button {
+   background-color: #04AA6D;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+ }
+ 
+ /* Add a hover effect for buttons */
+ button:hover {
+   opacity: 0.8;
+ }
+
+.login-container {
+   display: flex;
+   z-index: 10;
+}
+
+#container{
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: -1000;
+   
+}
+
+.section {
+   position: absolutei;
+   z-index: -1;
+   width: 100%;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+   object-fit: cover;
+   overflow-x: hidden;
+   overflow-y: hidden; 
+ }
+ 
+ .section h1 {
+   text-align: center;
+   font-size: 6rem;
+   font-family: "Cookie";
+   padding: 20px;
+   margin: 15px;
+   z-index: 1;
+ }
+ 
+ .video-container video {
+   z-index: -1;
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+ }
+
+ .color-overlay {
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   background-color: lightblue;
+   width: 100%;
+   height: 100vh;
+   opacity: 0.5;
+ }
