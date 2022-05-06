@@ -1,5 +1,3 @@
-#create server
-##ballslover69 will create a server
 import sqlite3
 
 conn = sqlite3.connect('eksempel.db')
@@ -26,8 +24,3 @@ def pushing(y):
         conn.commit()
     except Exception as e:
         print(e)
-
-    
-
-#   y = ('something', 'something2', 'something3')
-#   x = ["test_1 = 'velg'", "test_2 = 'med'", "test_3 = 'omhu'"]

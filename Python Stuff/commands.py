@@ -1,4 +1,6 @@
 import sqlite3
+from functions import *
+
 
 # Function that creates an example table (modify to your needs)
 def create_table(c):
