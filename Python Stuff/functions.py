@@ -39,7 +39,3 @@ def pushing(y):
 
 #   x = ["test_1 = 'something1'", "test_2 = 'something2'", "test_3 = 'something3'"]
 #   bytt something(1, 2, 3) med en liste over columnsa, og hvilke item i de columnsa du vil søke etter
-test = ["test_1 = 'velg'"]
-test2 = []
-pulling(test, test2)
-print(test2)
