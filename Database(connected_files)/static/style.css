@@ -1,3 +1,7 @@
-#test{
-    text-align:center;
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
 }
+

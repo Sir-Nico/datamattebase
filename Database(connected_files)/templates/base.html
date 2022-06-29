@@ -1,0 +1,29 @@
+
+ <!doctype html>
+<html lang="en">
+    <head>
+     <title>{% block content %}{% endblock %}</title>
+     <link rel="stylesheet" type="text/css"  href="{{url_for('static', filename ='style.css')}}">
+    </head>
+    <body>
+
+        <div id="navbar">
+            <a href="/" style= 'text-decoration: none; color: black;'><p id="home">Home</p></a>
+             <a href="login" style= 'text-decoration: none; color: black;'><p id="login">LogIn</p></a>
+              <a href="logout" style= 'text-decoration: none; color: black;'><p id="logout">Logout</p></a>  </div>
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for msg in messages %}
+                    <p>{{msg}}</p>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        <form action="#" method="post">
+            <p>Name:</p>
+            <p><input type="text" name="nm"></p>
+            <p><input type="submit" value="submit"></p>
+        </form>
+
+
+    </body>
+</html>
